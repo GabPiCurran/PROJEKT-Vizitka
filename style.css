@@ -2,6 +2,76 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #b2bec3;
+  font-size: 18px;
+  margin: 0;
+}
+
+
+h1 {
+    color: #d63031;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+p {
+   padding-bottom: 30px;
+   margin: 0;
+}
+.box {
+    display: grid;
+    width: 550px; 
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px;
+    position: absolute;
+    right: 50%;
+    margin-top: 150px; 
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem grey);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    left: 475px;
+    top: -50px;
+}
+
+a { font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+
+a:hover {
+    background-color: #0b7bc1;
+} 
+
+
+.twitter {
+    background-color:  #1da1f2;
+}
+
+
+.facebook {
+    background-color:  #3b5998;
+    margin-top: 5px;
+}
+
+.twitter,
+.facebook {
+    text-decoration: none;
+    text-align: center;
+}
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
